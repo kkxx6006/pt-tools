@@ -9,8 +9,8 @@ on:
   pull_request:
     branches: [master]
   schedule:
-    - cron: 0 3 * * *
-    # 国家时间 3点 北京时间11点触发
+    - cron: 0 16 * * *
+    # 国家时间 24点 北京时间24点触发
 jobs:
   build:
     runs-on: ubuntu-latest
